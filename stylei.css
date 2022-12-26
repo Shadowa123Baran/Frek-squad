@@ -124,7 +124,7 @@ a{
 
 .lastimg{
     width: 60vw;
-    margin-top: 2.5rem;
+    margin: 2.5rem 0rem;
     border-left: 3px solid #212121;
     border-top: 3px solid #212121;
     border-right: 3px solid #212121;
@@ -200,6 +200,27 @@ a{
     width: 20vw;
 }
 
+.div__forIframe{
+    font-weight: 700;
+    font-size: 20;
+}
+
+.textDivForIframe{
+    width: 28vw;
+    text-align: center;
+    border-bottom: 3px solid #212121;
+    border-top: 3px solid #212121;
+    border-left: 3px solid #212121;
+    border-right: 3px solid #212121;
+    border-radius: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    margin: 0 auto;
+}
+
+.ya-xz{
+    margin-bottom: 2.5rem;
+}
+
 .infoAbout__blank-saza{
     border-bottom: 3px solid #212121;
     border-top: 3px solid #212121;
@@ -227,6 +248,43 @@ a{
     width: 20vw;
 }
 
+@media (max-width: 1500px) {
+    .infoAbout__blank-utka{
+        width: 25vw;
+    }
+
+    .infoAbout__blank-saza{
+        width: 25vw;
+    }
+
+    .infoAbout__blank-tetra{
+        width: 25vw;
+    }
+    .textDivForIframe{
+        width: 38vw;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .infoAbout__blank-utka{
+        width: 35vw;
+    }
+
+    .infoAbout__blank-saza{
+        width: 35vw;
+    }
+
+    .infoAbout__blank-tetra{
+        width: 35vw;
+    }
+
+    .textDivForIframe{
+        width: 48vw;
+    }
+    
+}
+
 @media (max-width: 992px) {
     .header{
         width: 75vw;
@@ -236,6 +294,16 @@ a{
         width: 75vw;
     }
 
+    .textDivForIframe{
+        width: 100vw;
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        border-radius: 0rem;
+        margin: 0
+    }
+    
     .footer{
         width: 75vw;
     }
@@ -323,6 +391,18 @@ a{
         border-bottom-left-radius: 0rem;
         border-bottom-right-radius: 0rem;
     }
+
+    .textDivForIframe{
+        width: 100vw;
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        border-radius: 0rem;
+        margin: 0
+        
+    }
+    
     
     .lastimg{
         width: 100vw;

@@ -32,12 +32,12 @@ body {
     border-left: 3px solid #212121;
     border-bottom: 3px solid #212121;
     border-right: 3px solid #212121;
+    animation: fadeIn ease 1s;
 }
 
 a{
     text-decoration: none;
     color: white; 
-    animation: fadeIn ease 1s;
 }
 
 @keyframes fadeIn {
@@ -116,9 +116,6 @@ a{
     margin: 0 auto;
     margin-top: 2.5rem;
     padding: 1rem 0px;
-}
-
-.footer__text{
     animation: fadeIn ease 1s;
 }
 
@@ -198,6 +195,7 @@ a{
     padding: 0.75rem 1rem 0.75rem 0.50rem;
     cursor: pointer;
     width: 20vw;
+    margin:0 auto;
 }
 
 .div__forIframe{
@@ -215,6 +213,7 @@ a{
     border-radius: 1.5rem;
     padding: 0.5rem 1.5rem;
     margin: 0 auto;
+    animation: fadeIn ease 1s;
 }
 
 .ya-xz{
@@ -229,6 +228,118 @@ a{
     padding: 0.75rem 1rem 0.75rem 0.50rem;
     cursor: pointer;
     width: 20vw;
+    margin:0 auto;
+}
+
+iframe{
+    animation: fadeIn ease 1s;
+}
+
+.infoAbout__blank-stas{
+    border-bottom: 3px solid #212121;
+    border-top: 3px solid #212121;
+    border-left: 3px solid #212121;
+    border-right: 3px solid #212121;
+    padding: 0.75rem 1rem 0.75rem 0.50rem;
+    cursor: pointer;
+    width: 20vw;
+    margin:0 auto;
+}
+
+.infoAbout__blank-bis{
+    border-bottom: 3px solid #212121;
+    border-top: 3px solid #212121;
+    border-left: 3px solid #212121;
+    border-right: 3px solid #212121;
+    padding: 0.75rem 1rem 0.75rem 0.50rem;
+    cursor: pointer;
+    width: 20vw;
+    margin:0 auto;
+}
+
+.infoAbout__blank-zulus{
+    border-bottom: 3px solid #212121;
+    border-top: 3px solid #212121;
+    border-left: 3px solid #212121;
+    border-right: 3px solid #212121;
+    padding: 0.75rem 1rem 0.75rem 0.50rem;
+    cursor: pointer;
+    width: 20vw;
+    margin:0 auto;
+}
+
+.infoAbout__blank-shad{
+    border-bottom: 3px solid #212121;
+    border-top: 3px solid #212121;
+    border-left: 3px solid #212121;
+    border-right: 3px solid #212121;
+    padding: 0.75rem 1rem 0.75rem 0.50rem;
+    cursor: pointer;
+    width: 20vw;
+    margin:0 auto;
+}
+
+.infoAbout__blank-nigh{
+    border-bottom: 3px solid #212121;
+    border-top: 3px solid #212121;
+    border-left: 3px solid #212121;
+    border-right: 3px solid #212121;
+    padding: 0.75rem 1rem 0.75rem 0.50rem;
+    cursor: pointer;
+    width: 20vw;
+    margin:0 auto;
+}
+
+.infoAbout__blank-hida{
+    border-bottom: 3px solid #212121;
+    border-top: 3px solid #212121;
+    border-left: 3px solid #212121;
+    border-right: 3px solid #212121;
+    padding: 0.75rem 1rem 0.75rem 0.50rem;
+    cursor: pointer;
+    width: 20vw;
+    margin:0 auto;
+}
+
+.infoAbout__blank-eruby{
+    border-top: 3px solid #212121;
+    border-left: 3px solid #212121;
+    border-right: 3px solid #212121;
+    padding: 0.75rem 1rem 0.75rem 0.50rem;
+    cursor: pointer;
+    width: 20vw;
+    margin:0 auto;
+}
+
+.eruby__border{
+    border-bottom: 3px solid #212121;
+}
+
+.infoAbout__about-avatar{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0rem 0rem 0.7rem 0rem;
+}
+
+.infoAbout__about-p{
+    width: 40vw;
+    margin: 0 auto;
+    padding: 0rem 0rem 0.7rem 0rem;
+}
+
+.infoAbout__about-ip{
+    text-align: center;
+    padding: 0rem 0rem 0.3rem 0rem;
+}
+
+.infoAbout__inimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 100rem;
+    display:block;
+    margin:0 auto;
+    padding: 1rem 0rem;
 }
 
 .infoAbout__about-saza-text{
@@ -239,13 +350,43 @@ a{
     display: none;
 }
 
+.infoAbout__about-nigh-text{
+    display: none;
+}
+
+.infoAbout__about-stas-text{
+    display: none;
+}
+
+.infoAbout__about-zulus-text{
+    display: none;
+}
+
+.infoAbout__about-hida-text{
+    display: none;
+}
+
+.infoAbout__about-shad-text{
+    display: none;
+}
+
+.infoAbout__about-bis-text{
+    display: none;
+}
+
+.infoAbout__about-eruby-text{
+    display: none;
+}
+
 .infoAbout__blank-utka{
     border-top: 3px solid #212121;
     border-left: 3px solid #212121;
     border-right: 3px solid #212121;
+    border-bottom: 3px solid #212121;
     padding: 0.75rem 1rem 0.75rem 0.50rem;
     cursor: pointer;
     width: 20vw;
+    margin:0 auto;
 }
 
 @media (max-width: 1500px) {
@@ -260,6 +401,77 @@ a{
     .infoAbout__blank-tetra{
         width: 25vw;
     }
+
+    .infoAbout__blank-stas{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 25vw;
+    }
+    
+    .infoAbout__blank-bis{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 25vw;
+    }
+    
+    .infoAbout__blank-zulus{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 25vw;
+    }
+    
+    .infoAbout__blank-shad{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 25vw;
+    }
+    
+    .infoAbout__blank-nigh{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 25vw;
+    }
+    
+    .infoAbout__blank-hida{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 25vw;
+    }
+    
+    .infoAbout__blank-eruby{
+        border-bottom: 0px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 25vw;
+    }
+
     .textDivForIframe{
         width: 38vw;
     }
@@ -279,6 +491,76 @@ a{
         width: 35vw;
     }
 
+    .infoAbout__blank-stas{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 35vw;
+    }
+    
+    .infoAbout__blank-bis{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 35vw;
+    }
+    
+    .infoAbout__blank-zulus{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 35vw;
+    }
+    
+    .infoAbout__blank-shad{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 35vw;
+    }
+    
+    .infoAbout__blank-nigh{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 35vw;
+    }
+    
+    .infoAbout__blank-hida{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 35vw;
+    }
+    
+    .infoAbout__blank-eruby{
+        border-bottom: 0px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 35vw;
+    }
+
     .textDivForIframe{
         width: 48vw;
     }
@@ -292,6 +574,10 @@ a{
 
     .lastimg{
         width: 75vw;
+    }
+
+    .infoAbout__about-p{
+        width: 90%;
     }
 
     .textDivForIframe{
@@ -322,6 +608,76 @@ a{
     .section__infoAbout-title{
         margin-left: 0.5rem;
         font-size: 18px;
+    }
+
+    .infoAbout__blank-stas{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 96.05%;
+    }
+    
+    .infoAbout__blank-bis{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 96.05%;
+    }
+    
+    .infoAbout__blank-zulus{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 96.05%;
+    }
+    
+    .infoAbout__blank-shad{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 96.05%;
+    }
+    
+    .infoAbout__blank-nigh{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 96.05%;
+    }
+    
+    .infoAbout__blank-hida{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 96.05%;
+    }
+    
+    .infoAbout__blank-eruby{
+        border-bottom: 0px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 96.05%;
     }
 
     .infoAbout__blank-saza{
@@ -392,6 +748,10 @@ a{
         border-bottom-right-radius: 0rem;
     }
 
+    .infoAbout__about-p{
+        font-size: 18px;
+    }
+
     .textDivForIframe{
         width: 100vw;
         border-bottom: 3px solid #212121;
@@ -399,8 +759,8 @@ a{
         border-left: 0px solid #212121;
         border-right: 0px solid #212121;
         border-radius: 0rem;
-        margin: 0
-        
+        margin: 0 auto;
+        padding: 0.5rem 0rem;
     }
     
     
@@ -411,6 +771,97 @@ a{
         border-right: 0px solid #212121;
         border-bottom: 3px solid #212121;
         border-radius: 0rem;
+    }
+
+    .infoAbout__blank-stas{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 100vw;
+    }
+    
+    .infoAbout__blank-bis{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 100vw;
+    }
+    
+    .infoAbout__blank-zulus{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 100vw;
+    }
+    
+    .infoAbout__blank-shad{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 100vw;
+    }
+    
+    .infoAbout__blank-nigh{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 100vw;
+    }
+    
+    .infoAbout__blank-hida{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 100vw;
+    }
+    
+    .infoAbout__blank-eruby{
+        border-bottom: 0px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+        padding: 0.75rem 1rem 0.75rem 0.50rem;
+        cursor: pointer;
+        width: 100vw;
+    }
+
+    .infoAbout__blank-saza{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+    }
+
+    .infoAbout__blank-tetra{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 0px solid #212121;
+        border-right: 0px solid #212121;
+    }
+
+    .infoAbout__blank-utka{
+        border-bottom: 3px solid #212121;
+        border-top: 3px solid #212121;
+        border-left: 3px solid #212121;
+        border-right: 3px solid #212121;
     }
 
     .main__title{
@@ -505,7 +956,7 @@ a{
         border-right: 0px solid #212121;
     }
     .infoAbout__blank-utka{
-        border-bottom: 0px solid #212121;
+        border-bottom: 3px solid #212121;
         border-top: 3px solid #212121;
         border-left: 0px solid #212121;
         border-right: 0px solid #212121;
@@ -516,4 +967,28 @@ a{
         border-left: 0px solid #212121;
         border-right: 0px solid #212121;
     }
+}
+
+@media (max-width: 434px) {
+    .div__forIframe{
+    font-size: 18px;
+    }
+
+    .section__infoAbout-title{
+    font-size: 16px;
+    }
+
+    .infoAbout__about-p{
+        width: 95%;
+    }
+}
+
+@media (max-width: 380px) {
+    .div__forIframe{
+        font-size: 16px;
+    } 
+
+    .section__infoAbout-title{
+        font-size: 14px;
+        }
 }

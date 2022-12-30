@@ -746,6 +746,9 @@ iframe{
         width: 100%;
         border-bottom-left-radius: 0rem;
         border-bottom-right-radius: 0rem;
+        border-left: 0px solid #212121;
+        border-bottom: 3px solid #212121;
+        border-right: 0px solid #212121;
     }
 
     .infoAbout__about-p{
@@ -926,8 +929,10 @@ iframe{
 
     .footer{
         width: 100%;
-        border-top: 3px solid #212121;
         border-radius: 0px;
+        border-left: 0px solid #212121;
+        border-top: 3px solid #212121;
+        border-right: 0px solid #212121;
     }
     .infoAbout__blank-utka{
         width: 100%;
